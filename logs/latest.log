@@ -1,275 +1,235 @@
-[21:34:20] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.1+11-39; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[21:34:20] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-12-master@c17ef64 (2024-12-08T22:42:46Z) for Minecraft 1.21.4
-[21:34:21] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[21:34:21] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[21:34:21] [ServerMain/INFO]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[21:34:27] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[21:34:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:34:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[21:34:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:34:32] [ServerMain/INFO]: Loaded 1370 recipes
-[21:34:32] [ServerMain/INFO]: Loaded 1481 advancements
-[21:34:32] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[21:34:32] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 177,4ms
-[21:34:32] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[21:34:32] [Server thread/INFO]: Loading properties
-[21:34:32] [Server thread/INFO]: This server is running Paper version 1.21.4-12-master@c17ef64 (2024-12-08T22:42:46Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[21:34:33] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:34:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:34:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:34:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[21:34:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[21:34:34] [Server thread/INFO]: Default game type: SURVIVAL
-[21:34:34] [Server thread/INFO]: Generating keypair
-[21:34:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:34:34] [Server thread/INFO]: Using default channel type
-[21:34:34] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:34:34] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:34:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:34:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:34:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:34:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:34:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:34:34] [Server thread/INFO]: Preparing level "WorldWithFriends"
-[21:34:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:34:35] [Server thread/INFO]: Preparing spawn area: 0%
-[21:34:35] [Server thread/INFO]: Preparing spawn area: 57%
-[21:34:35] [Server thread/INFO]: Time elapsed: 625 ms
-[21:34:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:34:35] [Server thread/INFO]: Preparing spawn area: 0%
-[21:34:35] [Server thread/INFO]: Time elapsed: 194 ms
-[21:34:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:34:35] [Server thread/INFO]: Preparing spawn area: 0%
-[21:34:35] [Server thread/INFO]: Time elapsed: 116 ms
-[21:34:36] [Server thread/INFO]: [spark] Starting background profiler...
-[21:34:36] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[21:34:36] [Server thread/INFO]: Done preparing level "WorldWithFriends" (1.524s)
-[21:34:36] [Server thread/INFO]: Running delayed init tasks
-[21:34:36] [Server thread/INFO]: Done (16.681s)! For help, type "help"
-[21:34:41] [User Authenticator #0/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
-[21:34:41] [Server thread/INFO]: Grumm joined the game
-[21:34:41] [Server thread/INFO]: Grumm[/26.213.109.192:58561] logged in with entity id 13 at ([WorldWithFriends]2162.6119722885123, 71.0, -380.736455657225)
-[21:34:55] [Server thread/INFO]: --------- Help: Index ---------------------------
-[21:34:55] [Server thread/INFO]: Use /help [n] to get page n of help.
-[21:34:55] [Server thread/INFO]: Aliases: Lists command aliases
-[21:34:55] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[21:34:55] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[21:34:55] [Server thread/INFO]: /advancement: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /attribute: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /ban: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /banlist: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /callback: ClickEvent callback
-[21:34:55] [Server thread/INFO]: /clear: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /clone: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /damage: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /data: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /datapack: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /debug: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /deop: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /effect: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /enchant: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /execute: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /experience: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /fill: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /fillbiome: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /forceload: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /function: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /give: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /help: Shows the help menu
-[21:34:55] [Server thread/INFO]: /item: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /jfr: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /kick: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /kill: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /list: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /locate: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /loot: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /me: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:advancement: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:attribute: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:ban-ip: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:banlist: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:bossbar: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:clone: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:damage: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:data: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:datapack: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:debug: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:defaultgamemode: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:deop: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:difficulty: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:effect: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:execute: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:experience: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:fill: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:fillbiome: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:forceload: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:function: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:gamerule: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:item: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:jfr: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:locate: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:loot: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:msg: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:op: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:pardon-ip: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:particle: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:perf: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:place: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:playsound: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:random: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:recipe: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:return: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:ride: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:rotate: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:save-all: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:save-off: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:save-on: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:say: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:schedule: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:scoreboard: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:seed: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:setblock: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:setidletimeout: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:setworldspawn: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:spawnpoint: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:spectate: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:spreadplayers: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:stop: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:stopsound: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:summon: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:tag: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:team: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:teammsg: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:tellraw: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:tick: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:title: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:tm: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:transfer: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:trigger: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:w: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:whitelist: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:worldborder: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /msg: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /mspt: View server tick times
-[21:34:55] [Server thread/INFO]: /op: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /paper: Paper related commands
-[21:34:55] [Server thread/INFO]: /paper:spark: 
-[21:34:55] [Server thread/INFO]: /pardon: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /particle: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /perf: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /place: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /playsound: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[21:34:55] [Server thread/INFO]: /random: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /recipe: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[21:34:55] [Server thread/INFO]: /restart: Restarts the server
-[21:34:55] [Server thread/INFO]: /return: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /ride: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /rotate: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /save-all: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /save-off: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /save-on: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /say: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /schedule: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /seed: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /setblock: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /spark: 
-[21:34:55] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /spectate: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /spigot: Spigot related commands
-[21:34:55] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /stop: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /summon: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /tag: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /team: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /teleport: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /tell: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /tick: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /time: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[21:34:55] [Server thread/INFO]: /title: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /tm: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /tp: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[21:34:55] [Server thread/INFO]: /transfer: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /trigger: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[21:34:55] [Server thread/INFO]: /w: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /weather: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[21:34:55] [Server thread/INFO]: /xp: A Mojang provided command.
-[21:36:08] [Server thread/INFO]: [Not Secure] [Server] hi
-[21:36:19] [Server thread/INFO]: [Not Secure] [Server] Tioma loh
-[21:36:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Grumm> bunaziua
-[21:36:27] [Server thread/INFO]: [Not Secure] [Server] Max tot
-[21:36:36] [Server thread/INFO]: [Not Secure] [Server] Gabi crasava
-[21:36:59] [Server thread/INFO]: Set the weather to rain
-[21:38:12] [Server thread/INFO]: A player is required to run this command here
-[21:38:58] [Server thread/INFO]: Grumm lost connection: Disconnected
-[21:38:59] [Server thread/INFO]: Grumm left the game
-[21:39:00] [Server thread/INFO]: Stopping the server
-[21:39:00] [Server thread/INFO]: Stopping server
-[21:39:00] [Server thread/INFO]: Saving players
-[21:39:00] [Server thread/INFO]: Saving worlds
-[21:39:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends]'/minecraft:overworld
-[21:39:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends'
-[21:39:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends'
-[21:39:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Saved 5156 block chunks, 5156 entity chunks, 2 poi chunks in world 'WorldWithFriends' in 3,78s
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends'
-[21:39:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends_nether]'/minecraft:the_nether
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends_nether'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends_nether'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends_nether'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'WorldWithFriends_nether' in 0,04s
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends_nether'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends_nether'
-[21:39:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends_the_end]'/minecraft:the_end
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends_the_end'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends_the_end'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends_the_end'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'WorldWithFriends_the_end' in 0,04s
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends_the_end'
-[21:39:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends_the_end'
-[21:39:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (WorldWithFriends): All chunks are saved
-[21:39:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:39:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:39:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:39:04] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[21:39:04] [Server thread/INFO]: All I/O tasks to complete
-[21:39:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:39:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[12:57:44] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.1+11-39; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[12:57:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-12-master@c17ef64 (2024-12-08T22:42:46Z) for Minecraft 1.21.4
+[12:57:46] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[12:57:46] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[12:57:46] [ServerMain/INFO]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[12:57:53] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[12:57:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:57:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[12:58:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:58:03] [ServerMain/INFO]: Loaded 1370 recipes
+[12:58:03] [ServerMain/INFO]: Loaded 1481 advancements
+[12:58:04] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[12:58:04] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 327,1ms
+[12:58:05] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[12:58:05] [Server thread/INFO]: Loading properties
+[12:58:05] [Server thread/INFO]: This server is running Paper version 1.21.4-12-master@c17ef64 (2024-12-08T22:42:46Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[12:58:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:58:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:58:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:58:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[12:58:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:58:08] [Server thread/INFO]: Default game type: SURVIVAL
+[12:58:08] [Server thread/INFO]: Generating keypair
+[12:58:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:58:09] [Server thread/INFO]: Using default channel type
+[12:58:09] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:58:09] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:58:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:58:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:58:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:58:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:58:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:58:09] [Server thread/INFO]: Preparing level "WorldWithFriends"
+[12:58:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:58:10] [Server thread/INFO]: Preparing spawn area: 0%
+[12:58:10] [Server thread/INFO]: Preparing spawn area: 0%
+[12:58:11] [Server thread/INFO]: Preparing spawn area: 18%
+[12:58:11] [Server thread/INFO]: Time elapsed: 1436 ms
+[12:58:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:58:11] [Server thread/INFO]: Preparing spawn area: 0%
+[12:58:11] [Server thread/INFO]: Time elapsed: 266 ms
+[12:58:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:58:11] [Server thread/INFO]: Preparing spawn area: 0%
+[12:58:12] [Server thread/INFO]: Time elapsed: 220 ms
+[12:58:12] [Server thread/INFO]: [spark] Starting background profiler...
+[12:58:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[12:58:12] [Server thread/INFO]: Done preparing level "WorldWithFriends" (3.180s)
+[12:58:12] [Server thread/INFO]: Running delayed init tasks
+[12:58:12] [Server thread/INFO]: Done (29.907s)! For help, type "help"
+[12:58:42] [User Authenticator #0/INFO]: UUID of player Bibi_004 is 882ea7a2-8946-37c3-9d8e-c7a4252c4f9b
+[12:58:43] [Server thread/INFO]: Bibi_004 joined the game
+[12:58:43] [Server thread/INFO]: Bibi_004[/26.129.181.3:64272] logged in with entity id 13 at ([WorldWithFriends]2034.4659809427756, 111.0, -88.74473212012359)
+[12:58:49] [User Authenticator #0/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
+[12:58:50] [Server thread/INFO]: aalan joined the game
+[12:58:50] [Server thread/INFO]: aalan[/26.33.77.66:64595] logged in with entity id 220 at ([WorldWithFriends]1936.295411445227, 75.0, -294.9461543901734)
+[12:58:51] [User Authenticator #0/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
+[12:58:51] [Server thread/INFO]: Gruzin_05 joined the game
+[12:58:52] [Server thread/INFO]: Gruzin_05[/26.158.17.115:63820] logged in with entity id 255 at ([WorldWithFriends]1934.4347342814208, 75.0, -291.5238720786396)
+[13:01:15] [User Authenticator #1/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
+[13:01:16] [Server thread/INFO]: Grumm joined the game
+[13:01:16] [Server thread/INFO]: Grumm[/26.213.109.192:57988] logged in with entity id 1716 at ([WorldWithFriends]2161.480841192106, 72.0, -411.5188303465747)
+[13:10:43] [Server thread/INFO]: Gruzin_05 has made the advancement [Minecraft: Trial(s) Edition]
+[13:13:39] [Server thread/INFO]: Gruzin_05 has made the advancement [Under Lock and Key]
+[13:21:35] [Server thread/INFO]: Bibi_004 lost connection: Disconnected
+[13:21:35] [Server thread/INFO]: Bibi_004 left the game
+[13:21:37] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
+[13:21:37] [Server thread/INFO]: Gruzin_05 left the game
+[13:21:42] [Server thread/INFO]: Grumm lost connection: Disconnected
+[13:21:42] [Server thread/INFO]: Grumm left the game
+[13:26:30] [Server thread/INFO]: aalan lost connection: Disconnected
+[13:26:30] [Server thread/INFO]: aalan left the game
+[13:31:02] [User Authenticator #2/INFO]: UUID of player Bibi_004 is 882ea7a2-8946-37c3-9d8e-c7a4252c4f9b
+[13:31:03] [Server thread/INFO]: Bibi_004 joined the game
+[13:31:03] [Server thread/INFO]: Bibi_004[/26.129.181.3:64619] logged in with entity id 6379 at ([WorldWithFriends]2107.082739871533, 78.0, -452.51682146591924)
+[13:31:18] [User Authenticator #2/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
+[13:31:18] [Server thread/INFO]: Gruzin_05 joined the game
+[13:31:18] [Server thread/INFO]: Gruzin_05[/26.158.17.115:63931] logged in with entity id 6807 at ([WorldWithFriends]2416.767316825061, -27.0, -320.4733932491493)
+[13:31:53] [User Authenticator #2/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
+[13:31:53] [Server thread/INFO]: Grumm joined the game
+[13:31:53] [Server thread/INFO]: Grumm[/26.213.109.192:58056] logged in with entity id 7448 at ([WorldWithFriends]2174.657107920239, 74.0, -379.6743574203532)
+[13:32:02] [User Authenticator #2/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
+[13:32:05] [Server thread/INFO]: aalan joined the game
+[13:32:05] [Server thread/INFO]: aalan[/26.33.77.66:64719] logged in with entity id 7544 at ([WorldWithFriends]2445.479032735031, -30.0, -294.20461396160863)
+[13:44:12] [Server thread/INFO]: Bibi_004 has made the advancement [We Need to Go Deeper]
+[13:49:45] [Server thread/INFO]: Bibi_004 has made the advancement [Hidden in the Depths]
+[14:19:17] [Server thread/INFO]: Bibi_004 has made the advancement [Fishy Business]
+[14:22:54] [Server thread/INFO]: aalan lost connection: Timed out
+[14:22:54] [Server thread/INFO]: aalan left the game
+[14:23:01] [User Authenticator #3/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
+[14:23:02] [Server thread/INFO]: aalan joined the game
+[14:23:02] [Server thread/INFO]: aalan[/26.33.77.66:64883] logged in with entity id 26749 at ([WorldWithFriends]2703.7026412888467, -12.0, -402.6301922134066)
+[14:49:49] [Server thread/INFO]: aalan has reached the goal [Revaulting]
+[14:54:16] [Server thread/INFO]: Bibi_004 has made the advancement [The Parrots and the Bats]
+[14:57:02] [Server thread/INFO]: Gruzin_05 has reached the goal [Revaulting]
+[15:28:29] [Server thread/INFO]: aalan lost connection: Disconnected
+[15:28:29] [Server thread/INFO]: aalan left the game
+[15:28:43] [User Authenticator #4/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
+[15:28:43] [Server thread/INFO]: aalan joined the game
+[15:28:43] [Server thread/INFO]: aalan[/26.33.77.66:49923] logged in with entity id 49558 at ([WorldWithFriends]2453.469563374317, -31.0, -308.8777079422051)
+[15:39:31] [Server thread/INFO]: Bibi_004 has made the advancement [Who Needs Rockets?]
+[15:40:24] [Server thread/INFO]: Grumm lost connection: Disconnected
+[15:40:24] [Server thread/INFO]: Grumm left the game
+[15:49:23] [Server thread/INFO]: Gruzin_05 has made the advancement [Crafting a New Look]
+[15:49:46] [User Authenticator #5/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
+[15:49:47] [Server thread/INFO]: Grumm joined the game
+[15:49:47] [Server thread/INFO]: Grumm[/26.213.109.192:58352] logged in with entity id 53104 at ([WorldWithFriends]2166.222234519041, 70.0, -373.3664365653501)
+[16:06:28] [Server thread/INFO]: Bibi_004 has made the advancement [Ice Bucket Challenge]
+[16:24:59] [Server thread/INFO]: aalan has made the advancement [Eye Spy]
+[16:25:00] [Server thread/INFO]: Grumm has made the advancement [Eye Spy]
+[16:25:03] [Server thread/INFO]: Gruzin_05 has made the advancement [Eye Spy]
+[16:25:25] [Server thread/INFO]: Bibi_004 has made the advancement [Eye Spy]
+[16:32:01] [Server thread/INFO]: aalan has made the advancement [The End?]
+[16:32:02] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[16:32:02] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[16:32:20] [Server thread/INFO]: Bibi_004 has made the advancement [The End?]
+[16:32:23] [Server thread/INFO]: Grumm has made the advancement [The End?]
+[16:32:27] [Server thread/INFO]: Gruzin_05 has made the advancement [The End?]
+[16:39:13] [Server thread/INFO]: Bibi_004 has made the advancement [Free the End]
+[16:41:03] [Server thread/INFO]: aalan has made the advancement [Remote Getaway]
+[16:41:11] [Server thread/INFO]: Grumm has made the advancement [Remote Getaway]
+[16:41:12] [Server thread/INFO]: Gruzin_05 has made the advancement [Remote Getaway]
+[16:41:44] [Server thread/WARN]: aalan moved too quickly! 6.946070301080738,2.517008318572749,7.46976344691916
+[16:41:58] [Server thread/INFO]: Bibi_004 has made the advancement [Remote Getaway]
+[16:46:10] [Server thread/INFO]: Bibi_004 has reached the goal [The Next Generation]
+[16:47:25] [Server thread/INFO]: aalan has made the advancement [The City at the End of the Game]
+[16:47:51] [Server thread/INFO]: Grumm has made the advancement [The City at the End of the Game]
+[16:48:04] [Server thread/INFO]: Gruzin_05 has made the advancement [The City at the End of the Game]
+[16:49:56] [Server thread/INFO]: aalan has reached the goal [Sky's the Limit]
+[16:50:47] [Server thread/INFO]: aalan fell from a high place
+[16:50:50] [Server thread/INFO]: Grumm has made the advancement [Local Brewery]
+[16:53:21] [Server thread/INFO]: aalan fell out of the world
+[16:54:30] [Server thread/INFO]: Gruzin_05 has reached the goal [Sky's the Limit]
+[16:55:03] [Server thread/INFO]: aalan fell out of the world
+[17:02:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
+[17:02:28] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
+[17:02:28] [Server thread/INFO]: Gruzin_05 left the game
+[17:02:35] [Server thread/INFO]: Grumm lost connection: Disconnected
+[17:02:35] [Server thread/INFO]: Grumm left the game
+[17:02:35] [Server thread/INFO]: aalan lost connection: Disconnected
+[17:02:35] [Server thread/INFO]: aalan left the game
+[17:03:47] [Server thread/INFO]: Saving the game (this may take a moment!)
+[17:03:48] [Server thread/INFO]: Saved the game
+[17:38:36] [Server thread/INFO]: Bibi_004 has made the advancement [A Seedy Place]
+[19:03:09] [User Authenticator #6/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
+[19:03:10] [Server thread/INFO]: Gruzin_05 joined the game
+[19:03:10] [Server thread/INFO]: Gruzin_05[/26.158.17.115:64897] logged in with entity id 91936 at ([WorldWithFriends_the_end]444.72884286703425, 61.0, 1462.4282346666464)
+[19:03:42] [User Authenticator #6/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
+[19:03:43] [Server thread/INFO]: aalan joined the game
+[19:03:43] [Server thread/INFO]: aalan[/26.33.77.66:58177] logged in with entity id 92132 at ([WorldWithFriends]275.39189870885224, 98.0, -475.9283555810897)
+[19:03:57] [User Authenticator #6/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
+[19:03:58] [Server thread/INFO]: Grumm joined the game
+[19:03:58] [Server thread/INFO]: Grumm[/26.213.109.192:49917] logged in with entity id 92413 at ([WorldWithFriends_the_end]445.1794891646778, 61.339968872489315, 1466.1230892783103)
+[19:04:23] [Async Chat Thread - #0/INFO]: [Not Secure] <Gruzin_05> care coordinatele?
+[19:04:29] [Async Chat Thread - #0/INFO]: [Not Secure] <aalan> 349
+[19:05:05] [Async Chat Thread - #0/INFO]: [Not Secure] <aalan> 1519
+[19:05:36] [Server thread/INFO]: aalan was shot by Skeleton
+[19:05:47] [Server thread/WARN]: aalan moved too quickly! 9.913157570683694,0.8338907390617862,1.8313984748503458
+[19:12:31] [Server thread/INFO]: aalan went up in flames
+[19:14:20] [Server thread/INFO]: Grumm has made the advancement [Ol' Betsy]
+[19:15:37] [Async Chat Thread - #2/INFO]: [Not Secure] <Gruzin_05> 761 -421
+[19:18:00] [Server thread/INFO]: Grumm lost connection: Disconnected
+[19:18:00] [Server thread/INFO]: Grumm left the game
+[19:53:18] [Server thread/INFO]: Bibi_004 has made the advancement [The City at the End of the Game]
+[19:57:29] [User Authenticator #7/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
+[19:57:29] [Server thread/INFO]: Grumm joined the game
+[19:57:29] [Server thread/INFO]: Grumm[/26.213.109.192:50079] logged in with entity id 110100 at ([WorldWithFriends]1067.8749395378481, 63.0, -333.1572265998742)
+[20:00:06] [Server thread/INFO]: Bibi_004 has reached the goal [Sky's the Limit]
+[20:00:25] [Server thread/INFO]: Bibi_004 has made the advancement [Local Brewery]
+[20:05:11] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
+[20:05:11] [Server thread/INFO]: Gruzin_05 left the game
+[20:14:50] [Server thread/INFO]: aalan has made the advancement [Hot Stuff]
+[20:19:06] [Server thread/INFO]: Bibi_004 lost connection: Disconnected
+[20:19:06] [Server thread/INFO]: Bibi_004 left the game
+[20:19:08] [Server thread/INFO]: Grumm lost connection: Disconnected
+[20:19:08] [Server thread/INFO]: Grumm left the game
+[20:31:08] [User Authenticator #8/INFO]: UUID of player Bibi_004 is 882ea7a2-8946-37c3-9d8e-c7a4252c4f9b
+[20:31:08] [Server thread/INFO]: Bibi_004 joined the game
+[20:31:08] [Server thread/INFO]: Bibi_004[/26.129.181.3:50503] logged in with entity id 123112 at ([WorldWithFriends_the_end]-647.0812662998276, 48.0, 2171.9748488792097)
+[20:31:35] [User Authenticator #8/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
+[20:31:35] [Server thread/INFO]: Grumm joined the game
+[20:31:35] [Server thread/INFO]: Grumm[/26.213.109.192:50134] logged in with entity id 123138 at ([WorldWithFriends]2175.5, 74.0, -373.5)
+[20:38:27] [User Authenticator #9/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
+[20:38:27] [Server thread/INFO]: Gruzin_05 joined the game
+[20:38:27] [Server thread/INFO]: Gruzin_05[/26.158.17.115:65169] logged in with entity id 125866 at ([WorldWithFriends_the_end]-649.964439996559, 29.886594493794185, 2166.3672175597926)
+[20:38:28] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
+[20:38:29] [Server thread/INFO]: Gruzin_05 left the game
+[20:38:36] [User Authenticator #9/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
+[20:38:36] [Server thread/INFO]: Gruzin_05 joined the game
+[20:38:36] [Server thread/INFO]: Gruzin_05[/26.158.17.115:65182] logged in with entity id 125898 at ([WorldWithFriends_the_end]-649.964439996559, 3.0, 2166.3672175597926)
+[20:57:57] [Server thread/INFO]: Bibi_004 has completed the challenge [Great View From Up Here]
+[21:00:58] [Server thread/INFO]: aalan has completed the challenge [Great View From Up Here]
+[21:02:42] [Server thread/WARN]: Gruzin_05 moved too quickly! 4.540943980982888,-0.7521489003674589,13.262357302034616
+[21:18:41] [Server thread/INFO]: Grumm has reached the goal [Sky's the Limit]
+[21:23:12] [Server thread/INFO]: aalan lost connection: Disconnected
+[21:23:12] [Server thread/INFO]: aalan left the game
+[21:29:20] [Server thread/INFO]: Bibi_004 lost connection: Disconnected
+[21:29:20] [Server thread/INFO]: Bibi_004 left the game
+[21:33:39] [Server thread/INFO]: Grumm has made the advancement [What a Deal!]
+[21:43:53] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
+[21:43:53] [Server thread/INFO]: Gruzin_05 left the game
+[21:47:58] [Server thread/INFO]: Grumm lost connection: Disconnected
+[21:47:58] [Server thread/INFO]: Grumm left the game
+[22:08:02] [Server thread/INFO]: Stopping the server
+[22:08:02] [Server thread/INFO]: Stopping server
+[22:08:03] [Server thread/INFO]: Saving players
+[22:08:03] [Server thread/INFO]: Saving worlds
+[22:08:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends]'/minecraft:overworld
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 61 entity chunks, 0 poi chunks in world 'WorldWithFriends' in 0,12s
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends'
+[22:08:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends_nether]'/minecraft:the_nether
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends_nether'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends_nether'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends_nether'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 48 entity chunks, 0 poi chunks in world 'WorldWithFriends_nether' in 0,05s
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends_nether'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends_nether'
+[22:08:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends_the_end]'/minecraft:the_end
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends_the_end'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends_the_end'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends_the_end'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 50 entity chunks, 0 poi chunks in world 'WorldWithFriends_the_end' in 0,08s
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends_the_end'
+[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends_the_end'
+[22:08:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (WorldWithFriends): All chunks are saved
+[22:08:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:08:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:08:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:08:03] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[22:08:03] [Server thread/INFO]: All I/O tasks to complete
+[22:08:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:08:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
