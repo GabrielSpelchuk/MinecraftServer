@@ -1,235 +1,92 @@
-[12:57:44] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.1+11-39; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[12:57:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-12-master@c17ef64 (2024-12-08T22:42:46Z) for Minecraft 1.21.4
-[12:57:46] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[12:57:46] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[12:57:46] [ServerMain/INFO]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[12:57:53] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[12:57:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:57:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[12:58:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:58:03] [ServerMain/INFO]: Loaded 1370 recipes
-[12:58:03] [ServerMain/INFO]: Loaded 1481 advancements
-[12:58:04] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[12:58:04] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 327,1ms
-[12:58:05] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[12:58:05] [Server thread/INFO]: Loading properties
-[12:58:05] [Server thread/INFO]: This server is running Paper version 1.21.4-12-master@c17ef64 (2024-12-08T22:42:46Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[12:58:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:58:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:58:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:58:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[12:58:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[12:58:08] [Server thread/INFO]: Default game type: SURVIVAL
-[12:58:08] [Server thread/INFO]: Generating keypair
-[12:58:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:58:09] [Server thread/INFO]: Using default channel type
-[12:58:09] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:58:09] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:58:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:58:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:58:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:58:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:58:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:58:09] [Server thread/INFO]: Preparing level "WorldWithFriends"
-[12:58:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:58:10] [Server thread/INFO]: Preparing spawn area: 0%
-[12:58:10] [Server thread/INFO]: Preparing spawn area: 0%
-[12:58:11] [Server thread/INFO]: Preparing spawn area: 18%
-[12:58:11] [Server thread/INFO]: Time elapsed: 1436 ms
-[12:58:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:58:11] [Server thread/INFO]: Preparing spawn area: 0%
-[12:58:11] [Server thread/INFO]: Time elapsed: 266 ms
-[12:58:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:58:11] [Server thread/INFO]: Preparing spawn area: 0%
-[12:58:12] [Server thread/INFO]: Time elapsed: 220 ms
-[12:58:12] [Server thread/INFO]: [spark] Starting background profiler...
-[12:58:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[12:58:12] [Server thread/INFO]: Done preparing level "WorldWithFriends" (3.180s)
-[12:58:12] [Server thread/INFO]: Running delayed init tasks
-[12:58:12] [Server thread/INFO]: Done (29.907s)! For help, type "help"
-[12:58:42] [User Authenticator #0/INFO]: UUID of player Bibi_004 is 882ea7a2-8946-37c3-9d8e-c7a4252c4f9b
-[12:58:43] [Server thread/INFO]: Bibi_004 joined the game
-[12:58:43] [Server thread/INFO]: Bibi_004[/26.129.181.3:64272] logged in with entity id 13 at ([WorldWithFriends]2034.4659809427756, 111.0, -88.74473212012359)
-[12:58:49] [User Authenticator #0/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
-[12:58:50] [Server thread/INFO]: aalan joined the game
-[12:58:50] [Server thread/INFO]: aalan[/26.33.77.66:64595] logged in with entity id 220 at ([WorldWithFriends]1936.295411445227, 75.0, -294.9461543901734)
-[12:58:51] [User Authenticator #0/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
-[12:58:51] [Server thread/INFO]: Gruzin_05 joined the game
-[12:58:52] [Server thread/INFO]: Gruzin_05[/26.158.17.115:63820] logged in with entity id 255 at ([WorldWithFriends]1934.4347342814208, 75.0, -291.5238720786396)
-[13:01:15] [User Authenticator #1/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
-[13:01:16] [Server thread/INFO]: Grumm joined the game
-[13:01:16] [Server thread/INFO]: Grumm[/26.213.109.192:57988] logged in with entity id 1716 at ([WorldWithFriends]2161.480841192106, 72.0, -411.5188303465747)
-[13:10:43] [Server thread/INFO]: Gruzin_05 has made the advancement [Minecraft: Trial(s) Edition]
-[13:13:39] [Server thread/INFO]: Gruzin_05 has made the advancement [Under Lock and Key]
-[13:21:35] [Server thread/INFO]: Bibi_004 lost connection: Disconnected
-[13:21:35] [Server thread/INFO]: Bibi_004 left the game
-[13:21:37] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
-[13:21:37] [Server thread/INFO]: Gruzin_05 left the game
-[13:21:42] [Server thread/INFO]: Grumm lost connection: Disconnected
-[13:21:42] [Server thread/INFO]: Grumm left the game
-[13:26:30] [Server thread/INFO]: aalan lost connection: Disconnected
-[13:26:30] [Server thread/INFO]: aalan left the game
-[13:31:02] [User Authenticator #2/INFO]: UUID of player Bibi_004 is 882ea7a2-8946-37c3-9d8e-c7a4252c4f9b
-[13:31:03] [Server thread/INFO]: Bibi_004 joined the game
-[13:31:03] [Server thread/INFO]: Bibi_004[/26.129.181.3:64619] logged in with entity id 6379 at ([WorldWithFriends]2107.082739871533, 78.0, -452.51682146591924)
-[13:31:18] [User Authenticator #2/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
-[13:31:18] [Server thread/INFO]: Gruzin_05 joined the game
-[13:31:18] [Server thread/INFO]: Gruzin_05[/26.158.17.115:63931] logged in with entity id 6807 at ([WorldWithFriends]2416.767316825061, -27.0, -320.4733932491493)
-[13:31:53] [User Authenticator #2/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
-[13:31:53] [Server thread/INFO]: Grumm joined the game
-[13:31:53] [Server thread/INFO]: Grumm[/26.213.109.192:58056] logged in with entity id 7448 at ([WorldWithFriends]2174.657107920239, 74.0, -379.6743574203532)
-[13:32:02] [User Authenticator #2/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
-[13:32:05] [Server thread/INFO]: aalan joined the game
-[13:32:05] [Server thread/INFO]: aalan[/26.33.77.66:64719] logged in with entity id 7544 at ([WorldWithFriends]2445.479032735031, -30.0, -294.20461396160863)
-[13:44:12] [Server thread/INFO]: Bibi_004 has made the advancement [We Need to Go Deeper]
-[13:49:45] [Server thread/INFO]: Bibi_004 has made the advancement [Hidden in the Depths]
-[14:19:17] [Server thread/INFO]: Bibi_004 has made the advancement [Fishy Business]
-[14:22:54] [Server thread/INFO]: aalan lost connection: Timed out
-[14:22:54] [Server thread/INFO]: aalan left the game
-[14:23:01] [User Authenticator #3/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
-[14:23:02] [Server thread/INFO]: aalan joined the game
-[14:23:02] [Server thread/INFO]: aalan[/26.33.77.66:64883] logged in with entity id 26749 at ([WorldWithFriends]2703.7026412888467, -12.0, -402.6301922134066)
-[14:49:49] [Server thread/INFO]: aalan has reached the goal [Revaulting]
-[14:54:16] [Server thread/INFO]: Bibi_004 has made the advancement [The Parrots and the Bats]
-[14:57:02] [Server thread/INFO]: Gruzin_05 has reached the goal [Revaulting]
-[15:28:29] [Server thread/INFO]: aalan lost connection: Disconnected
-[15:28:29] [Server thread/INFO]: aalan left the game
-[15:28:43] [User Authenticator #4/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
-[15:28:43] [Server thread/INFO]: aalan joined the game
-[15:28:43] [Server thread/INFO]: aalan[/26.33.77.66:49923] logged in with entity id 49558 at ([WorldWithFriends]2453.469563374317, -31.0, -308.8777079422051)
-[15:39:31] [Server thread/INFO]: Bibi_004 has made the advancement [Who Needs Rockets?]
-[15:40:24] [Server thread/INFO]: Grumm lost connection: Disconnected
-[15:40:24] [Server thread/INFO]: Grumm left the game
-[15:49:23] [Server thread/INFO]: Gruzin_05 has made the advancement [Crafting a New Look]
-[15:49:46] [User Authenticator #5/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
-[15:49:47] [Server thread/INFO]: Grumm joined the game
-[15:49:47] [Server thread/INFO]: Grumm[/26.213.109.192:58352] logged in with entity id 53104 at ([WorldWithFriends]2166.222234519041, 70.0, -373.3664365653501)
-[16:06:28] [Server thread/INFO]: Bibi_004 has made the advancement [Ice Bucket Challenge]
-[16:24:59] [Server thread/INFO]: aalan has made the advancement [Eye Spy]
-[16:25:00] [Server thread/INFO]: Grumm has made the advancement [Eye Spy]
-[16:25:03] [Server thread/INFO]: Gruzin_05 has made the advancement [Eye Spy]
-[16:25:25] [Server thread/INFO]: Bibi_004 has made the advancement [Eye Spy]
-[16:32:01] [Server thread/INFO]: aalan has made the advancement [The End?]
-[16:32:02] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[16:32:02] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
-[16:32:20] [Server thread/INFO]: Bibi_004 has made the advancement [The End?]
-[16:32:23] [Server thread/INFO]: Grumm has made the advancement [The End?]
-[16:32:27] [Server thread/INFO]: Gruzin_05 has made the advancement [The End?]
-[16:39:13] [Server thread/INFO]: Bibi_004 has made the advancement [Free the End]
-[16:41:03] [Server thread/INFO]: aalan has made the advancement [Remote Getaway]
-[16:41:11] [Server thread/INFO]: Grumm has made the advancement [Remote Getaway]
-[16:41:12] [Server thread/INFO]: Gruzin_05 has made the advancement [Remote Getaway]
-[16:41:44] [Server thread/WARN]: aalan moved too quickly! 6.946070301080738,2.517008318572749,7.46976344691916
-[16:41:58] [Server thread/INFO]: Bibi_004 has made the advancement [Remote Getaway]
-[16:46:10] [Server thread/INFO]: Bibi_004 has reached the goal [The Next Generation]
-[16:47:25] [Server thread/INFO]: aalan has made the advancement [The City at the End of the Game]
-[16:47:51] [Server thread/INFO]: Grumm has made the advancement [The City at the End of the Game]
-[16:48:04] [Server thread/INFO]: Gruzin_05 has made the advancement [The City at the End of the Game]
-[16:49:56] [Server thread/INFO]: aalan has reached the goal [Sky's the Limit]
-[16:50:47] [Server thread/INFO]: aalan fell from a high place
-[16:50:50] [Server thread/INFO]: Grumm has made the advancement [Local Brewery]
-[16:53:21] [Server thread/INFO]: aalan fell out of the world
-[16:54:30] [Server thread/INFO]: Gruzin_05 has reached the goal [Sky's the Limit]
-[16:55:03] [Server thread/INFO]: aalan fell out of the world
-[17:02:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
-[17:02:28] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
-[17:02:28] [Server thread/INFO]: Gruzin_05 left the game
-[17:02:35] [Server thread/INFO]: Grumm lost connection: Disconnected
-[17:02:35] [Server thread/INFO]: Grumm left the game
-[17:02:35] [Server thread/INFO]: aalan lost connection: Disconnected
-[17:02:35] [Server thread/INFO]: aalan left the game
-[17:03:47] [Server thread/INFO]: Saving the game (this may take a moment!)
-[17:03:48] [Server thread/INFO]: Saved the game
-[17:38:36] [Server thread/INFO]: Bibi_004 has made the advancement [A Seedy Place]
-[19:03:09] [User Authenticator #6/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
-[19:03:10] [Server thread/INFO]: Gruzin_05 joined the game
-[19:03:10] [Server thread/INFO]: Gruzin_05[/26.158.17.115:64897] logged in with entity id 91936 at ([WorldWithFriends_the_end]444.72884286703425, 61.0, 1462.4282346666464)
-[19:03:42] [User Authenticator #6/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
-[19:03:43] [Server thread/INFO]: aalan joined the game
-[19:03:43] [Server thread/INFO]: aalan[/26.33.77.66:58177] logged in with entity id 92132 at ([WorldWithFriends]275.39189870885224, 98.0, -475.9283555810897)
-[19:03:57] [User Authenticator #6/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
-[19:03:58] [Server thread/INFO]: Grumm joined the game
-[19:03:58] [Server thread/INFO]: Grumm[/26.213.109.192:49917] logged in with entity id 92413 at ([WorldWithFriends_the_end]445.1794891646778, 61.339968872489315, 1466.1230892783103)
-[19:04:23] [Async Chat Thread - #0/INFO]: [Not Secure] <Gruzin_05> care coordinatele?
-[19:04:29] [Async Chat Thread - #0/INFO]: [Not Secure] <aalan> 349
-[19:05:05] [Async Chat Thread - #0/INFO]: [Not Secure] <aalan> 1519
-[19:05:36] [Server thread/INFO]: aalan was shot by Skeleton
-[19:05:47] [Server thread/WARN]: aalan moved too quickly! 9.913157570683694,0.8338907390617862,1.8313984748503458
-[19:12:31] [Server thread/INFO]: aalan went up in flames
-[19:14:20] [Server thread/INFO]: Grumm has made the advancement [Ol' Betsy]
-[19:15:37] [Async Chat Thread - #2/INFO]: [Not Secure] <Gruzin_05> 761 -421
-[19:18:00] [Server thread/INFO]: Grumm lost connection: Disconnected
-[19:18:00] [Server thread/INFO]: Grumm left the game
-[19:53:18] [Server thread/INFO]: Bibi_004 has made the advancement [The City at the End of the Game]
-[19:57:29] [User Authenticator #7/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
-[19:57:29] [Server thread/INFO]: Grumm joined the game
-[19:57:29] [Server thread/INFO]: Grumm[/26.213.109.192:50079] logged in with entity id 110100 at ([WorldWithFriends]1067.8749395378481, 63.0, -333.1572265998742)
-[20:00:06] [Server thread/INFO]: Bibi_004 has reached the goal [Sky's the Limit]
-[20:00:25] [Server thread/INFO]: Bibi_004 has made the advancement [Local Brewery]
-[20:05:11] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
-[20:05:11] [Server thread/INFO]: Gruzin_05 left the game
-[20:14:50] [Server thread/INFO]: aalan has made the advancement [Hot Stuff]
-[20:19:06] [Server thread/INFO]: Bibi_004 lost connection: Disconnected
-[20:19:06] [Server thread/INFO]: Bibi_004 left the game
-[20:19:08] [Server thread/INFO]: Grumm lost connection: Disconnected
-[20:19:08] [Server thread/INFO]: Grumm left the game
-[20:31:08] [User Authenticator #8/INFO]: UUID of player Bibi_004 is 882ea7a2-8946-37c3-9d8e-c7a4252c4f9b
-[20:31:08] [Server thread/INFO]: Bibi_004 joined the game
-[20:31:08] [Server thread/INFO]: Bibi_004[/26.129.181.3:50503] logged in with entity id 123112 at ([WorldWithFriends_the_end]-647.0812662998276, 48.0, 2171.9748488792097)
-[20:31:35] [User Authenticator #8/INFO]: UUID of player Grumm is 0a498edb-2bfa-3f61-83ff-018a9b0ecf3f
-[20:31:35] [Server thread/INFO]: Grumm joined the game
-[20:31:35] [Server thread/INFO]: Grumm[/26.213.109.192:50134] logged in with entity id 123138 at ([WorldWithFriends]2175.5, 74.0, -373.5)
-[20:38:27] [User Authenticator #9/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
-[20:38:27] [Server thread/INFO]: Gruzin_05 joined the game
-[20:38:27] [Server thread/INFO]: Gruzin_05[/26.158.17.115:65169] logged in with entity id 125866 at ([WorldWithFriends_the_end]-649.964439996559, 29.886594493794185, 2166.3672175597926)
-[20:38:28] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
-[20:38:29] [Server thread/INFO]: Gruzin_05 left the game
-[20:38:36] [User Authenticator #9/INFO]: UUID of player Gruzin_05 is 4642302b-8c2e-37fe-bccf-effe47583488
-[20:38:36] [Server thread/INFO]: Gruzin_05 joined the game
-[20:38:36] [Server thread/INFO]: Gruzin_05[/26.158.17.115:65182] logged in with entity id 125898 at ([WorldWithFriends_the_end]-649.964439996559, 3.0, 2166.3672175597926)
-[20:57:57] [Server thread/INFO]: Bibi_004 has completed the challenge [Great View From Up Here]
-[21:00:58] [Server thread/INFO]: aalan has completed the challenge [Great View From Up Here]
-[21:02:42] [Server thread/WARN]: Gruzin_05 moved too quickly! 4.540943980982888,-0.7521489003674589,13.262357302034616
-[21:18:41] [Server thread/INFO]: Grumm has reached the goal [Sky's the Limit]
-[21:23:12] [Server thread/INFO]: aalan lost connection: Disconnected
-[21:23:12] [Server thread/INFO]: aalan left the game
-[21:29:20] [Server thread/INFO]: Bibi_004 lost connection: Disconnected
-[21:29:20] [Server thread/INFO]: Bibi_004 left the game
-[21:33:39] [Server thread/INFO]: Grumm has made the advancement [What a Deal!]
-[21:43:53] [Server thread/INFO]: Gruzin_05 lost connection: Disconnected
-[21:43:53] [Server thread/INFO]: Gruzin_05 left the game
-[21:47:58] [Server thread/INFO]: Grumm lost connection: Disconnected
-[21:47:58] [Server thread/INFO]: Grumm left the game
-[22:08:02] [Server thread/INFO]: Stopping the server
-[22:08:02] [Server thread/INFO]: Stopping server
-[22:08:03] [Server thread/INFO]: Saving players
-[22:08:03] [Server thread/INFO]: Saving worlds
-[22:08:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends]'/minecraft:overworld
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 61 entity chunks, 0 poi chunks in world 'WorldWithFriends' in 0,12s
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends'
-[22:08:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends_nether]'/minecraft:the_nether
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends_nether'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends_nether'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends_nether'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 48 entity chunks, 0 poi chunks in world 'WorldWithFriends_nether' in 0,05s
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends_nether'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends_nether'
-[22:08:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends_the_end]'/minecraft:the_end
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends_the_end'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends_the_end'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends_the_end'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 50 entity chunks, 0 poi chunks in world 'WorldWithFriends_the_end' in 0,08s
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends_the_end'
-[22:08:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends_the_end'
-[22:08:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (WorldWithFriends): All chunks are saved
-[22:08:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:08:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:08:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:08:03] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[22:08:03] [Server thread/INFO]: All I/O tasks to complete
-[22:08:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:08:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[13:42:06] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.1+11-39; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[13:42:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-12-master@c17ef64 (2024-12-08T22:42:46Z) for Minecraft 1.21.4
+[13:42:08] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[13:42:08] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[13:42:08] [ServerMain/INFO]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[13:42:14] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[13:42:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:42:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[13:42:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:42:21] [ServerMain/INFO]: Loaded 1370 recipes
+[13:42:21] [ServerMain/INFO]: Loaded 1481 advancements
+[13:42:21] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[13:42:21] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 264,0ms
+[13:42:22] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[13:42:22] [Server thread/INFO]: Loading properties
+[13:42:22] [Server thread/INFO]: This server is running Paper version 1.21.4-12-master@c17ef64 (2024-12-08T22:42:46Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[13:42:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:42:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:42:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:42:23] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[13:42:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:42:24] [Server thread/INFO]: Default game type: SURVIVAL
+[13:42:24] [Server thread/INFO]: Generating keypair
+[13:42:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:42:24] [Server thread/INFO]: Using default channel type
+[13:42:24] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:42:24] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:42:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:42:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:42:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:42:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:42:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:42:24] [Server thread/INFO]: Preparing level "WorldWithFriends"
+[13:42:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:42:24] [Server thread/INFO]: Preparing spawn area: 0%
+[13:42:25] [Server thread/INFO]: Preparing spawn area: 24%
+[13:42:25] [Server thread/INFO]: Time elapsed: 773 ms
+[13:42:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:42:25] [Server thread/INFO]: Preparing spawn area: 0%
+[13:42:25] [Server thread/INFO]: Time elapsed: 283 ms
+[13:42:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:42:25] [Server thread/INFO]: Preparing spawn area: 0%
+[13:42:25] [Server thread/INFO]: Time elapsed: 204 ms
+[13:42:26] [Server thread/INFO]: [spark] Starting background profiler...
+[13:42:26] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:42:26] [Server thread/INFO]: Done preparing level "WorldWithFriends" (1.961s)
+[13:42:26] [Server thread/INFO]: Running delayed init tasks
+[13:42:26] [Server thread/INFO]: Done (20.429s)! For help, type "help"
+[13:45:45] [User Authenticator #0/INFO]: UUID of player aalan is f6143849-72de-3cc1-bd34-517ba5a60b41
+[13:45:47] [Server thread/INFO]: aalan joined the game
+[13:45:47] [Server thread/INFO]: aalan[/26.33.77.66:50009] logged in with entity id 44 at ([WorldWithFriends]1942.2647945341473, 75.0, -297.9214742397193)
+[13:57:02] [User Authenticator #1/INFO]: UUID of player Bibi_004 is 882ea7a2-8946-37c3-9d8e-c7a4252c4f9b
+[13:57:02] [Server thread/INFO]: Bibi_004 joined the game
+[13:57:02] [Server thread/INFO]: Bibi_004[/26.129.181.3:50191] logged in with entity id 3437 at ([WorldWithFriends]2106.7588953236286, 78.0, -452.53217747443585)
+[14:00:40] [Server thread/INFO]: Bibi_004 has made the advancement [Crafting a New Look]
+[14:20:27] [Server thread/INFO]: aalan lost connection: Disconnected
+[14:20:27] [Server thread/INFO]: aalan left the game
+[14:20:45] [Server thread/INFO]: Bibi_004 lost connection: Disconnected
+[14:20:45] [Server thread/INFO]: Bibi_004 left the game
+[14:20:58] [Server thread/INFO]: Stopping the server
+[14:20:58] [Server thread/INFO]: Stopping server
+[14:20:58] [Server thread/INFO]: Saving players
+[14:20:58] [Server thread/INFO]: Saving worlds
+[14:20:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends]'/minecraft:overworld
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'WorldWithFriends' in 0,05s
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends'
+[14:20:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends_nether]'/minecraft:the_nether
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends_nether'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends_nether'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends_nether'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 56 entity chunks, 0 poi chunks in world 'WorldWithFriends_nether' in 0,05s
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends_nether'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends_nether'
+[14:20:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[WorldWithFriends_the_end]'/minecraft:the_end
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'WorldWithFriends_the_end'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'WorldWithFriends_the_end'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'WorldWithFriends_the_end'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 49 entity chunks, 0 poi chunks in world 'WorldWithFriends_the_end' in 0,04s
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'WorldWithFriends_the_end'
+[14:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'WorldWithFriends_the_end'
+[14:20:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (WorldWithFriends): All chunks are saved
+[14:20:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:20:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:20:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:20:58] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[14:20:58] [Server thread/INFO]: All I/O tasks to complete
+[14:20:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[14:20:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
